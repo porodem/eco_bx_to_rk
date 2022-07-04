@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Новый выгрузки ТЕСТ</title>
+<meta charset='utf-8'>
+<link rel="stylesheet" href="/itreports/stylesheets/new_style.css">
+</head>
+<body>
+    <h2 style="color: red; font-family: sans-serif; margin-top: 3%;">выгрузки ИТ</h2>
+	<div class="loader" style="display:none;" id="myDiv"></div>
+	
+<form action="upload.php" method="post" enctype="multipart/form-data">
+	<fieldset>
+		<div>
+	Select csv to upload:
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="hidden" id="rep_type" name="rep_type" value="ago">
+	<input type="submit" value="Upload file" name="submit">
+</div>
+	</fieldset>
+</form>
+</body>
+</html>
